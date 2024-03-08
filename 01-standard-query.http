@@ -1,0 +1,43 @@
+POST https://api.openai.com/v1/chat/completions
+content-type: application/json
+Authorization: Bearer {{key}}
+
+{
+  "model": "gpt-3.5-turbo",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Evaluate AI system compliance with NIST AI RMF and EU AI Act."
+    }
+  ],
+  "functions": [
+    {
+      "name": "complianceQuery",
+      "description": "Evaluate AI system compliance with NIST AI RMF and EU AI Act standards.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "nist_ai_rmf_section": {
+            "type": "string",
+            "description": "Section of the NIST AI RMF to evaluate."
+          },
+          "eu_ai_act_area": {
+            "type": "string",
+            "description": "Specific area of the EU AI Act to evaluate."
+          }
+        },
+        "required": [
+          "nist_ai_rmf_section",
+          "eu_ai_act_area"
+        ]
+      }
+    }
+  ],
+  "function_call": {
+    "name": "complianceQuery",
+    "parameters": {
+      "nist_ai_rmf_section": "GOVERN 1.1",
+      "eu_ai_act_area": "High risk AI systems"
+    }
+  }
+}

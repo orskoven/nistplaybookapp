@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/nistplaybookapp/static/css/main.fb665e37.css",
-    "main.js": "/react-gh-pages/nistplaybookapp/static/js/main.3dce1cf3.js",
-    "static/js/453.40cf4ee9.chunk.js": "/react-gh-pages/nistplaybookapp/static/js/453.40cf4ee9.chunk.js",
-    "index.html": "/react-gh-pages/nistplaybookapp/index.html",
-    "main.fb665e37.css.map": "/react-gh-pages/nistplaybookapp/static/css/main.fb665e37.css.map",
-    "main.3dce1cf3.js.map": "/react-gh-pages/nistplaybookapp/static/js/main.3dce1cf3.js.map",
-    "453.40cf4ee9.chunk.js.map": "/react-gh-pages/nistplaybookapp/static/js/453.40cf4ee9.chunk.js.map"
+    "main.css": "/nistplaybookapp/static/css/main.fb665e37.css",
+    "main.js": "/nistplaybookapp/static/js/main.518f41d4.js",
+    "static/js/453.40cf4ee9.chunk.js": "/nistplaybookapp/static/js/453.40cf4ee9.chunk.js",
+    "index.html": "/nistplaybookapp/index.html",
+    "main.fb665e37.css.map": "/nistplaybookapp/static/css/main.fb665e37.css.map",
+    "main.518f41d4.js.map": "/nistplaybookapp/static/js/main.518f41d4.js.map",
+    "453.40cf4ee9.chunk.js.map": "/nistplaybookapp/static/js/453.40cf4ee9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb665e37.css",
-    "static/js/main.3dce1cf3.js"
+    "static/js/main.518f41d4.js"
   ]
 }
